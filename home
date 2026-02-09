@@ -875,7 +875,7 @@
                 <span>${message}</span>
             `;
             document.body.appendChild(notif);
-            
+        
             setTimeout(() => {
                 notif.classList.remove('translate-y-10', 'opacity-0');
             }, 100);
